@@ -1,8 +1,12 @@
 # DAWII-Examen-WebII
-Proyecto de examen de Desarrollo de Aplicaciones Web II: implementación de microservicios msvc-users y msvc-clients con Spring Boot
+Proyecto de examen de Desarrollo de Aplicaciones Web II: implementación de microservicios msvc-users y msvc-clients usando Spring Boot y Spring Cloud con OpenFeign y LoadBalancer RoundRobin.
+
 Curso: Desarrollo de Aplicaciones Web II
+
 Profesor: César Enrique Santos Torres
+
 Seccion: 4697
+
 Alumno: Christopher Eduardo Valdivia Baca
 
 ## Estructura
@@ -23,10 +27,12 @@ Alumno: Christopher Eduardo Valdivia Baca
 
 # Terminal 1: msvc-users puerto 8001
 cd msvc-users
+
 mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8001"
 
 # Terminal 2: msvc-users puerto 8002
 cd msvc-users
+
 mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8002"
 
 # Terminal 3: msvc-clients puerto 9001
