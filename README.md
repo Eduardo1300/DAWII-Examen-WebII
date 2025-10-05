@@ -22,6 +22,10 @@ Alumno: Christopher Eduardo Valdivia Baca
   - Balanceo RoundRobin entre dos instancias de msvc-users
 ## Ejecución
 
+Puedes iniciar los microservicios directamente desde tu IDE Spring Boot (haciendo clic en Run en cada proyecto) o si 
+
+prefieres usar la terminal, ejecuta los siguientes comandos:
+
 1. Ejecutar **msvc-users** en dos instancias:
 
 
