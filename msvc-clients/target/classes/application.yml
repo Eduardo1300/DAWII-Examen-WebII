@@ -1,0 +1,8 @@
+server:
+  port: 9001
+
+msvc-users:
+  url: http://localhost:8001
+  urls:
+    - http://localhost:8001
+    - http://localhost:8002

@@ -1,0 +1,7 @@
+com\example\msvcclients\config\FeignConfig$1.class
+com\example\msvcclients\controller\ClientController.class
+com\example\msvcclients\feign\UserFeignClient.class
+com\example\msvcclients\config\FeignConfig.class
+com\example\msvcclients\model\UserDTO.class
+com\example\msvcclients\MsvcClientsApplication.class
+com\example\msvcclients\model\Client.class
